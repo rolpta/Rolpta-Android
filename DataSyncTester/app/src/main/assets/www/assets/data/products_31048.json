@@ -1,0 +1,54 @@
+{
+    "id": 31048,
+    "title": "10 Years Trend",
+    "img": "https://i2.wp.com/www.mediafactsbook.com/wp-content/uploads/2018/09/10_years_trend.jpg?fit=360%2C524&ssl=1",
+    "price": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8358;</span>1,200.00</span> &ndash; <span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8358;</span>5,700.00</span>",
+    "description": "<div class=\"t pgm0 pgxa pgh1 pgy1e pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"color: #ff0000; font-size: 18pt;\"><strong>Buy online to avail of exiting offers:</strong></span></div>\n<div class=\"t pgm0 pgxa pgh1 pgy1f pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\">\n<div class=\"t pgm0 pgxa pgh1 pgy1f pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"font-size: 14pt;\"><strong>Hard Copy : N4,500</strong></span></div>\n<div class=\"t pgm0 pgxa pgh1 pgy20 pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"font-size: 14pt;\"><strong>Soft Copy : </strong>30% Off</span></div>\n<div class=\"t pgm0 pgxa pgh1 pgy21 pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"font-size: 14pt;\"><strong>Hard Copy + Soft Copy :\u00a0</strong></span><span style=\"font-size: 14pt;\">Additional 20% Off</span></div>\n</div>\n<p>&nbsp;</p>\n",
+    "vars": [
+        {
+            "id": 31052,
+            "title": "Hard & Soft Copy",
+            "description": "<p>Download the the Soft copy after checkout.<br />\nHard copy delivery for Lagos only. If outside Lagos or Nigeria please do write to us to confirm postage cost medialab@mediareachomd.com</p>\n",
+            "downloadable": true,
+            "downloads": [
+                {
+                    "id": "ef0a80c6-0186-4939-ba7a-5ac30763797b",
+                    "name": "10 Years Trend",
+                    "file": "https://%20dl.dropboxusercontent.com/s/j68xw43wzuji2mt/10years_trend.pdf?dl=1"
+                }
+            ],
+            "download_expiry": 7,
+            "download_limit": -1,
+            "price": "5700",
+            "regular_price": "5700"
+        },
+        {
+            "id": 31051,
+            "title": "Soft Copy",
+            "description": "<p>Download the the Soft copy after checkout.</p>\n",
+            "downloadable": true,
+            "downloads": [
+                {
+                    "id": "1fa7189f-33af-437f-9924-42a242cffb62",
+                    "name": "10 Years Trend",
+                    "file": "https://dl.dropboxusercontent.com/s/j68xw43wzuji2mt/10years_trend.pdf?dl=1"
+                }
+            ],
+            "download_expiry": 8,
+            "download_limit": -1,
+            "price": "1200",
+            "regular_price": "1200"
+        },
+        {
+            "id": 31050,
+            "title": "Hard Copy",
+            "description": "<p>Delivery for Lagos only. If outside Lagos or Nigeria please do write to us to confirm postage cost medialab@mediareachomd.com</p>\n",
+            "downloadable": false,
+            "downloads": [],
+            "download_expiry": -1,
+            "download_limit": -1,
+            "price": "4500",
+            "regular_price": "4500"
+        }
+    ]
+}

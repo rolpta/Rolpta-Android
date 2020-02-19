@@ -1,0 +1,20 @@
+.bookstore {background-color: #E8EAED;padding-top: 4%}
+
+.bookheader {margin-bottom: 24px;}
+
+img.owl-lazy {border-radius: 10px;}
+
+
+.bigideas {background-image: url(../img/bg2.png);color:#fff;text-align: center;font-size:24px;}
+
+.imgtext {text-align: center;}
+
+.imgtext img.item {}
+.imgtext span.item {display:block;margin-top:5px;}
+
+.sub_item {padding-top: 20px;padding-bottom: 20px;}
+
+.sub_item .text, .sub_item .title {padding:10px;padding-left: 15px;}
+
+.sub_item .text {vertical-align: top;}
+.sub_item .title {vertical-align: bottom;}

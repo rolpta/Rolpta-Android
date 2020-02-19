@@ -1,0 +1,163 @@
+[
+    {
+        "id": 30359,
+        "object_id": "30277",
+        "title": "Nigeria",
+        "url": "https://www.mediafactsbook.com/nigeria/",
+        "parent": "51"
+    },
+    {
+        "id": 30353,
+        "object_id": "30271",
+        "title": "Ghana",
+        "url": "https://www.mediafactsbook.com/ghana/",
+        "parent": "51"
+    },
+    {
+        "id": 30344,
+        "object_id": "30273",
+        "title": "Cameroon",
+        "url": "https://www.mediafactsbook.com/cameroon/",
+        "parent": "51"
+    },
+    {
+        "id": 30349,
+        "object_id": "30280",
+        "title": "Cote D\u2019Ivoire",
+        "url": "https://www.mediafactsbook.com/cote-divoire/",
+        "parent": "51"
+    },
+    {
+        "id": 30342,
+        "object_id": "30275",
+        "title": "Benin",
+        "url": "https://www.mediafactsbook.com/benin/",
+        "parent": "51"
+    },
+    {
+        "id": 30343,
+        "object_id": "30282",
+        "title": "Burkina Faso",
+        "url": "https://www.mediafactsbook.com/burkina-faso/",
+        "parent": "32685"
+    },
+    {
+        "id": 30345,
+        "object_id": "30317",
+        "title": "Cape Verde",
+        "url": "https://www.mediafactsbook.com/cape-verde/",
+        "parent": "32685"
+    },
+    {
+        "id": 30346,
+        "object_id": "30315",
+        "title": "Central African Republic",
+        "url": "https://www.mediafactsbook.com/central-african-republic/",
+        "parent": "32685"
+    },
+    {
+        "id": 30347,
+        "object_id": "30309",
+        "title": "Chad Republic",
+        "url": "https://www.mediafactsbook.com/chad-republic/",
+        "parent": "32685"
+    },
+    {
+        "id": 30348,
+        "object_id": "30313",
+        "title": "Republic of The Congo",
+        "url": "https://www.mediafactsbook.com/congo-brazzaville/",
+        "parent": "32685"
+    },
+    {
+        "id": 30350,
+        "object_id": "30284",
+        "title": "Democratic Republic of Congo",
+        "url": "https://www.mediafactsbook.com/dem-republic-of-congo/",
+        "parent": "32685"
+    },
+    {
+        "id": 30351,
+        "object_id": "30305",
+        "title": "Equatorial Guinea",
+        "url": "https://www.mediafactsbook.com/equatorial-guinea/",
+        "parent": "32685"
+    },
+    {
+        "id": 30352,
+        "object_id": "30287",
+        "title": "Gabon",
+        "url": "https://www.mediafactsbook.com/gabon/",
+        "parent": "32685"
+    },
+    {
+        "id": 30354,
+        "object_id": "30301",
+        "title": "Guinea",
+        "url": "https://www.mediafactsbook.com/guinea/",
+        "parent": "32685"
+    },
+    {
+        "id": 30355,
+        "object_id": "30303",
+        "title": "Guinea Bissau",
+        "url": "https://www.mediafactsbook.com/guinea-bissau/",
+        "parent": "32685"
+    },
+    {
+        "id": 30356,
+        "object_id": "30297",
+        "title": "Liberia",
+        "url": "https://www.mediafactsbook.com/liberia/",
+        "parent": "32685"
+    },
+    {
+        "id": 30357,
+        "object_id": "30289",
+        "title": "Mali",
+        "url": "https://www.mediafactsbook.com/mali/",
+        "parent": "32685"
+    },
+    {
+        "id": 30358,
+        "object_id": "30311",
+        "title": "Mauritania",
+        "url": "https://www.mediafactsbook.com/mauritania/",
+        "parent": "32685"
+    },
+    {
+        "id": 31175,
+        "object_id": "31172",
+        "title": "Niger",
+        "url": "https://www.mediafactsbook.com/niger/",
+        "parent": "32685"
+    },
+    {
+        "id": 30361,
+        "object_id": "30291",
+        "title": "Senegal",
+        "url": "https://www.mediafactsbook.com/senegal/",
+        "parent": "32685"
+    },
+    {
+        "id": 30362,
+        "object_id": "30299",
+        "title": "Sierra Leone",
+        "url": "https://www.mediafactsbook.com/sierra-leone/",
+        "parent": "32685"
+    },
+    {
+        "id": 30363,
+        "object_id": "30295",
+        "title": "The Gambia",
+        "url": "https://www.mediafactsbook.com/the-gambia/",
+        "parent": "32685"
+    },
+    {
+        "id": 30364,
+        "object_id": "30293",
+        "title": "Togo",
+        "url": "https://www.mediafactsbook.com/togo/",
+        "parent": "32685"
+    }
+]

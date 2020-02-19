@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DataSync</string>
+    <string name="open_location_settings">Turn on</string>
+    <string name="gps_network_not_enabled">Please Turn On GPS Location</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>

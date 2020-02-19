@@ -1,0 +1,166 @@
+.row, .row .col {
+  margin-bottom: 0px;
+}
+
+.green {
+    background-color: #F20505 !important;
+}
+
+.fixed-action-btn {
+    position: absolute;
+    right: 4px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+a {
+   color: red;
+   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+}
+
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid #F20505;
+    border-bottom: 2px solid #F20505;
+}
+
+.input-field.noicon  > label {
+  left:20px;
+}
+
+.input-field.noicon input {
+  padding-left: 20px;
+}
+
+
+.input-field > label.active {
+    color: #000;
+    position: absolute;
+    top: 12px;
+}
+
+.select-wrapper input.select-dropdown {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #F20505;
+    outline: none;
+    height: 3rem;
+    line-height: 3rem;
+    color: #F20505;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+}
+
+.input-field .prefix {
+  color: #F20505;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #F20505;
+}
+
+
+.btn-floating {
+    background: transparent;
+    border: 1px solid #F20505;
+    color:#F20505;
+}
+
+.btn-floating:hover,.btn-floating:focus {
+    background: #F20505;
+    color:#fff;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  color: #000;
+}
+
+.input-field .prefix.active {
+  color:#F20505;
+}
+
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color:#000;
+}
+
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom:0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+    border-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+    border: 1px solid #F20505;
+    border-radius: 1.4em;
+    background-color:#fff;
+}
+
+.input-field .prefix {
+  left:10px;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  margin-bottom:0;
+  border:0;
+}
+
+.input-field .prefix {
+    position: absolute;
+    width: 3rem;
+    font-size: 1.5rem;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    top: 0.8rem;
+}

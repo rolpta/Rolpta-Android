@@ -1,0 +1,56 @@
+[
+    {
+        "id": 31048,
+        "name": "10 Years Trend",
+        "slug": "10-years-trend",
+        "image": "https://i2.wp.com/www.mediafactsbook.com/wp-content/uploads/2018/09/10_years_trend.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 31013,
+        "name": "MediaFacts 2015",
+        "slug": "mediafacts-2015",
+        "image": "https://i1.wp.com/www.mediafactsbook.com/wp-content/uploads/2018/08/2015.jpg?fit=360%2C511&ssl=1"
+    },
+    {
+        "id": 30223,
+        "name": "MediaFacts 2017",
+        "slug": "mediafacts-2017",
+        "image": "https://i1.wp.com/www.mediafactsbook.com/wp-content/uploads/2018/05/2017_cover-sold-out.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30218,
+        "name": "MediaFacts 2016",
+        "slug": "mediafacts-2016",
+        "image": "https://i1.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2016_cover.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30109,
+        "name": "MediaFacts 2006",
+        "slug": "mediafacts-2006",
+        "image": "https://i2.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2006_cover.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30108,
+        "name": "MediaFacts 2007",
+        "slug": "mediafacts-2007",
+        "image": "https://i0.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2007_cover.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30107,
+        "name": "MediaFacts 2008",
+        "slug": "mediafacts-2008",
+        "image": "https://i2.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2008_cover.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30106,
+        "name": "MediaFacts 2009",
+        "slug": "mediafacts-2009",
+        "image": "https://i0.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2009_cover.jpg?fit=360%2C524&ssl=1"
+    },
+    {
+        "id": 30105,
+        "name": "MediaFacts 2013",
+        "slug": "mediafacts-2013",
+        "image": "https://i1.wp.com/www.mediafactsbook.com/wp-content/uploads/2016/02/2013_cover.jpg?fit=360%2C524&ssl=1"
+    }
+]

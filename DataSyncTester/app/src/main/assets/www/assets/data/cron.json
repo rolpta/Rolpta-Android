@@ -1,0 +1,153 @@
+{
+    "base": "https://mediafactsbook.com/woo/datasync",
+    "root": [
+        {
+            "name": "cron",
+            "hash": "cf4bfea691f188720346398bcbb84c95c06bd96f"
+        },
+        {
+            "name": "facts_30271",
+            "hash": "249059700d466b0a38bf5da13e8d9df62d461966"
+        },
+        {
+            "name": "facts_30273",
+            "hash": "1570712a8c3ed0802eec65ee8936876353027e95"
+        },
+        {
+            "name": "facts_30275",
+            "hash": "cb0f890807dc7b9b4bf97574d8c9afe0f1669217"
+        },
+        {
+            "name": "facts_30277",
+            "hash": "90e5c42412b9076919def7dc5fa61c686f8d1c7f"
+        },
+        {
+            "name": "facts_30280",
+            "hash": "1ce65e65990928de46dab0804f582d07cd6c6599"
+        },
+        {
+            "name": "facts_30282",
+            "hash": "d78a4ea15cdeb0e6826dabd7a44a335e359605e5"
+        },
+        {
+            "name": "facts_30284",
+            "hash": "8c28deaa40509d36441bd7b5385bce02573732af"
+        },
+        {
+            "name": "facts_30287",
+            "hash": "c34734fec2ad55880c18a758ec138c6f3bdda343"
+        },
+        {
+            "name": "facts_30289",
+            "hash": "5ff66c061be51676fb02777098ae3fa9a8aa4dcf"
+        },
+        {
+            "name": "facts_30291",
+            "hash": "02c128583f00be3d7c3bccc85e0b94781da446c4"
+        },
+        {
+            "name": "facts_30293",
+            "hash": "d0ccb8c18d56cb56c3369ef8b94d95b865b8a091"
+        },
+        {
+            "name": "facts_30295",
+            "hash": "2084b3e15a35c1198069f3a65944523026e72d31"
+        },
+        {
+            "name": "facts_30297",
+            "hash": "04f7dd4505a5e71f7e478b83f8929788e18f7ab3"
+        },
+        {
+            "name": "facts_30299",
+            "hash": "d030e54f888d523848e7900da29cf69509994d5d"
+        },
+        {
+            "name": "facts_30301",
+            "hash": "2d202d777be443ea6ed958c06e655438fdc93d19"
+        },
+        {
+            "name": "facts_30303",
+            "hash": "81bc6ccff58da908ba6822718b06954b0ec87248"
+        },
+        {
+            "name": "facts_30305",
+            "hash": "0e3430557b76a84001bb5883d107e5e822d394a5"
+        },
+        {
+            "name": "facts_30309",
+            "hash": "cb05959c6f756fee99ba16c3a4ac10f346dc22d9"
+        },
+        {
+            "name": "facts_30311",
+            "hash": "0728d5759b2be5fd7adc013f97d7899c71e3a709"
+        },
+        {
+            "name": "facts_30313",
+            "hash": "2cec7f560a5d2ca14f35be15c3e10d5eabb2e72c"
+        },
+        {
+            "name": "facts_30315",
+            "hash": "39f76b09d45a340c54ff1cbdd97b4c1cb1a61bf7"
+        },
+        {
+            "name": "facts_30317",
+            "hash": "163dbe0169c4aa63037cf34242cfaec8bbfaf499"
+        },
+        {
+            "name": "facts_31172",
+            "hash": "fd70651678780431b5be3c5ebe8b2eafaff9e0ef"
+        },
+        {
+            "name": "menu",
+            "hash": "a3ed1c458ccf73512338982a54e34b9f035512fc"
+        },
+        {
+            "name": "pages_8277",
+            "hash": "bcb1c5ad2b7301ba92e07ca2a8be734e0e1f6986"
+        },
+        {
+            "name": "products_30105",
+            "hash": "de42c385e4b76a72883a40a8e475bc4b985cdccb"
+        },
+        {
+            "name": "products_30106",
+            "hash": "e710a0f2eabe2ba5eae955bb5e65659c6a3a9703"
+        },
+        {
+            "name": "products_30107",
+            "hash": "3049692bda5d53e19a14fdca6be709b8bd90b537"
+        },
+        {
+            "name": "products_30108",
+            "hash": "84dfd1a2ce2e9facded045c60388e3e4f683f0c1"
+        },
+        {
+            "name": "products_30109",
+            "hash": "eeb82e0f84a8a81e896694c77cb6f02048c99181"
+        },
+        {
+            "name": "products_30218",
+            "hash": "5f61d043fcebc66d878ccf0a088fc2a7258097cd"
+        },
+        {
+            "name": "products_30223",
+            "hash": "52593dd59a534a2888171596c8cc1a6d1a2d431f"
+        },
+        {
+            "name": "products_31013",
+            "hash": "b812feac6f5b26b4bde3ef36efd151a288c47458"
+        },
+        {
+            "name": "products_31048",
+            "hash": "405e0afc44facbf91bf60b3c90f799171ba45953"
+        },
+        {
+            "name": "products_index",
+            "hash": "9ae9525d8d4ea184ce9e0f4322d92425bf28af09"
+        },
+        {
+            "name": "rev",
+            "hash": "3144aef6aa7903b8c612468d8af364f0e88125cd"
+        }
+    ]
+}

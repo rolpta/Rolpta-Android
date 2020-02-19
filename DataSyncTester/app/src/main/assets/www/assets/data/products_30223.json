@@ -1,0 +1,31 @@
+{
+    "id": 30223,
+    "title": "MediaFacts 2017",
+    "img": "https://i1.wp.com/www.mediafactsbook.com/wp-content/uploads/2018/05/2017_cover-sold-out.jpg?fit=360%2C524&ssl=1",
+    "price": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#8358;</span>8,050.00</span>",
+    "description": "<div class=\"t pgm0 pgxa pgh1 pgy1e pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"color: #ff0000; font-size: 18pt;\"><strong>Buy online to avail of exiting offers:</strong></span></div>\n<div class=\"t pgm0 pgxa pgh1 pgy1f pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"font-size: 14pt;\"><strong>Hard Copy : <span style=\"color: #ff0000;\">Sold Out</span></strong></span></div>\n<div class=\"t pgm0 pgxa pgh1 pgy20 pgff1 pgfs0 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"font-size: 14pt;\"><strong>Soft Copy : N8,050 (30% Off)</strong></span></div>\n<div class=\"t pgm0 pgxa pgh2 pgy22 pgff1 pgfs1 pgfc0 pgsc0 pgls0 pgws0\"><span style=\"color: #808080;\"><span style=\"font-size: 14pt;\">(Soft copy still </span><span style=\"font-size: 14pt;\">available for download)</span></span></div>\n<p>&nbsp;</p>\n",
+    "vars": [
+        {
+            "id": 31032,
+            "title": "Soft Copy",
+            "description": "<p>Download the the Soft copy after checkout.</p>\n",
+            "downloadable": true,
+            "downloads": [
+                {
+                    "id": "2bc4875c-7278-4f67-8093-59d88424f85c",
+                    "name": "MediaFacts Book 2017 English",
+                    "file": "https://dl.dropboxusercontent.com/s/6jk11a7ozjk8qgt/mfb_17_eng.pdf?dl=1"
+                },
+                {
+                    "id": "cf48dd7e-4657-40bd-8c13-a8caf7e28187",
+                    "name": "MediaFacts Book 2017 French",
+                    "file": "https://dl.dropboxusercontent.com/s/n7ug7mfbjm0yq1t/mfb_17_fr.pdf?dl=1"
+                }
+            ],
+            "download_expiry": 30,
+            "download_limit": -1,
+            "price": "8050",
+            "regular_price": "8050"
+        }
+    ]
+}

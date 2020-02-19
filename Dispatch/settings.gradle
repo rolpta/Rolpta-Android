@@ -1,0 +1,4 @@
+include ':app'
+
+include ':datasync'
+project(':datasync').projectDir = new File(settingsDir, '../../DataSyncTester/datasync')

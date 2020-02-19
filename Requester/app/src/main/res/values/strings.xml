@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">rolpta requester</string>
+    <string name="reload">Connect to rolpta</string>
+    <string name="email_subject">Subject</string>
+    <string name="email_message">Message</string>
+    <string name="action_settings">Action</string>
+    <string name="error_no_camera">No camera found on device</string>
+    <string name="facebook_app_id">728198371042749</string>
+</resources>
