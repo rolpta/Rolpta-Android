@@ -1,0 +1,99 @@
+<html>
+
+<head>
+  <title>Payment Breakdown</title>
+</head>
+
+<body css="dashboard.css" js="payment/confirm.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <table>
+          <tr>
+            <td width="70">
+              <img id="userimg" alt="" class="circular">
+            </td>
+            <td>
+              <p class="p" id="name"></p>
+            </td>
+            <td width="30">
+            </td>
+          </tr>
+        </table>
+
+        <div class="row">
+          <div class="col s6">
+            <p>TYPE OF PARCEL</p>
+            <p><span id="package"></span> (<span id="items"></span>)</p>
+          </div>
+          <div class="col s6 text-right">
+            <p>PRICE</p>
+            <p id="base_price"></p>
+          </div>
+        </div>
+
+        <div class="row" style="margin-bottom:0;">
+          <div class="col s12" style="margin-bottom:0;">
+            <p class="p">PICKED FROM</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12">
+            <p id="p_address"></p>
+          </div>
+        </div>
+
+        <div class="row" style="margin-bottom:0;">
+          <div class="col s12" style="margin-bottom:0;">
+            <p class="p">DELIVERED TO</p>
+            <br/>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col s3">
+            <img id="r_avatar" alt="" class="circular">
+          </div>
+
+          <div class="col s3">
+            <p id="d_address"></p>
+          </div>
+          <div class="col s6 text-right">
+            <p id="pkg_price"></p>
+          </div>
+        </div>
+
+
+        <div class="jumbo">
+          <div class="row">
+            <div class="col s12">
+              <p class="p">TOTAL</p>
+              <p class="p" id="total"></p>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+
+        <button onclick="applet.next();" class="waves-effect waves-light btn block">RATE REQUESTER</button>
+
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <title>Check Order</title>
+</head>
+
+<body css="dashboard.css" back_btn="true" js="order/check.js" class="dashboard navmode bgmode">
+
+
+  <div class="order_check">
+    <div class="spcnav"></div>
+    <div class="content-area">
+
+      <div class="center">
+        <br />
+        <img src="app/assets/img/person.png" class="circular7"  id="avatar"/>
+        <p id="name"></p>
+        <p id="position"></p>
+      </div>
+
+      <div class="">
+        <h6>ORDER ID</h6>
+        <ul>
+          <li id="hash"></li>
+        </ul>
+      </div>
+
+      <div class="">
+        <h6>TYPE OF PARCEL</h6>
+        <ul>
+          <li id="package"></li>
+        </ul>
+      </div>
+
+
+      <div class="">
+        <h6>Quantity</h6>
+        <ul>
+          <li id="items"></li>
+        </ul>
+      </div>
+
+      <br />
+      <div class="">
+        <h6>PICKUP FROM</h6>
+        <ul>
+          <li id="p_gaddress"></li>
+          <li id="p_address"></li>
+        </ul>
+      </div>
+
+      <br />
+      <div class="">
+        <h6>DELIVERING TO</h6>
+        <br/>
+        <div class="row">
+          <div class="col s4">
+            <img src="app/assets/img/person.png" class="circular"  id="r_avatar"/>
+          </div>
+          <div class="col s8">
+
+        <ul>
+          <li id="r_name"></li>
+          <li id="d_gaddress"></li>
+          <li id="d_address"></li>
+        </ul>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="padding:10px;">
+      <button onclick="applet.accept();" class="waves-effect waves-light btn block">ACCEPT</button>
+      <div style="height:8px;"></div>
+      <a href="#dashboard/queue" class="waves-effect waves-light btn red block">&LT; BACK</a>
+    </div>
+  </div>
+
+</body>
+
+</html>

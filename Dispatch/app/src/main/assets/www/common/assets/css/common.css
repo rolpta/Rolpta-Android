@@ -1,0 +1,10 @@
+.notify_info {background-color:#eee;margin-bottom: 0;padding:20px;}
+
+.col.sicon {display:inline-block;width:80px;}
+.col.stext {display:inline-block;width:calc(100% - 80px);}
+
+.sender_name {
+    margin-top: 9px;
+    margin-bottom: 5px;
+    display: block;
+}

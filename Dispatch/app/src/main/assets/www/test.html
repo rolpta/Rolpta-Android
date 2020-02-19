@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=yes" />
+
+  <style>
+    input[type=text] {width:100%;margin-bottom:10px;font-size:15px;padding:10px;}
+  input[type=button] {width:100%;margin-bottom:10px;font-size:15px;padding:10px;background:green;color:#fff;}
+  </style>
+</head>
+<body>
+        <script>
+            function myCallback(value) {
+                document.getElementById("i").value = value;
+            }
+
+            function gps_location(value) {
+              document.getElementById("i").value = value;
+            }
+        </script>
+        <input type=text id='i'/>
+        <input type=button value='Track GPS' onclick='window.webkit.messageHandlers.bridge.postMessage("trackgps");'>
+
+        <input type=button value='Dial' onclick='window.webkit.messageHandlers.bridge.postMessage("dial:+2348120755515");'>
+        <br/>
+        <input type=button value='GetPhoto' onclick='window.webkit.messageHandlers.bridge.postMessage("getPhoto:My Photos");'>
+        <br/>
+        <input type=button value='getCamera' onclick='window.webkit.messageHandlers.bridge.postMessage("getCamera:Take picture now");'>
+        <br/>
+        <input type=button value='startNotification' onclick='window.webkit.messageHandlers.bridge.postMessage("startNotification");'>
+        <br/>
+        <input type=button value='stopNotification' onclick='window.webkit.messageHandlers.bridge.postMessage("stopNotification");'>
+
+        <br/>
+        <input type=button value='facebookLogin' onclick='window.webkit.messageHandlers.bridge.postMessage("facebookLogin");'>
+
+    </body>
+</html>

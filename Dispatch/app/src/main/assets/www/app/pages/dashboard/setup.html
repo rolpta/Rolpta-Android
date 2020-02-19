@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>Setup Dispatch Preferences</title>
+</head>
+
+<body css="dashboard.css" js="setup.js" class="dashboard navmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <form autocomplete="off" id="form" action="javascript://" class="form" method="post" target="_self">
+
+        <br />
+        <div class="jumbo">
+          <p>Package Types</p>
+          <div class="row">
+            <div class="col s4">
+              <label>
+                <input type="checkbox" name="envelope" id="envelope" />
+                <span>Envelope</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input type="checkbox" name="bag" id="bag" />
+                <span>Bag</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input type="checkbox" name="sack" id="sack" />
+                <span>Sack/Box</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+
+
+        <br />
+        <div class="jumbo">
+          <p>Delivery</p>
+          <div class="row">
+            <div class="col s4">
+              <label>
+                <input type="checkbox" id="state" name="state"/>
+                <span>State</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input type="checkbox" id="intrastate" name="intrastate"/>
+                <span>Intrastate</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input type="checkbox" id="abroad" name="abroad"/>
+                <span>Abroad</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <div class="jumbo">
+          <p>Description of Vehicle (optional)</p>
+
+          <div class="input-field">
+            <!--
+            <i class="material-icons prefix">directions_car</i>
+            -->
+            <input id="vehicle" name="vehicle" type="text" class="validate">
+          </div>
+
+        </div>
+
+
+        <br />
+        <div class="jumbo">
+          <p>Availability</p>
+          <div style="background-color:#fff;padding:10px;">
+            <div class="switch">
+              <label>
+                <span id="offtext"></span>
+                <input type="checkbox" id="online" name="online">
+                <span class="lever"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+
+        <br/>
+        <br/>
+        <button type="submit"  class="waves-effect waves-light btn block text-left">Update Settings</button>
+        <br/>
+        <a href="#dashboard" class="waves-effect red waves-light btn block text-left"><i class="material-icons left">arrow_backward</i>Return to Dashboard</a>
+
+      </form>
+
+
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

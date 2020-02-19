@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <title>Login</title>
+</head>
+
+<body class="signin navtop" js="user/signin.js">
+
+  <layout-table>
+    <layout-header>
+
+      <nav class="nav2 fixed-top">
+        <div class="nav-wrapper">
+
+          <div class="row">
+            <div class="col s3">
+              <a href="" class="leftnav">
+                <i class="material-icons">chevron_left</i>
+              </a>
+            </div>
+            <div class="col s6">
+              <div class="center">
+                <span class="titlebar">Sign In</span>
+              </div>
+            </div>
+            <div class="col s3">
+              <a class="right" href="#user/signup">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </layout-header>
+    <layout-row>
+
+      <div class="center_wrapper">
+
+        <form id="form" action="javascript://" class="form" method="post" target="_self">
+          <input autocomplete="off" type="hidden" name="actype" value="requester">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input autocomplete="off" id="email" name="email" required type="email" class="validate">
+            <label for="email">E-mail</label>
+          </div>
+
+          <div class="wrap-field">
+            <div class="input-field">
+              <i class="material-icons prefix">lock</i>
+              <input autocomplete="off" type="password" id="password" name="password" required class="validate">
+              <label for="password">Password</label>
+            </div>
+            <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password"></i>
+          </div>
+
+
+          <div class="text-center">
+            Can't remember your password? <a href="#user/password">Click here?</a>
+          </div>
+          <br />
+
+
+          <center>
+            <button type="submit" class="waves-effect waves-light btn block text-left"><i class="material-icons right">arrow_forward</i>SIGN IN</button>
+
+            <br />
+            <div class="text-center">
+              Don't have an account? <a href="#user/signup">SIGN UP</a>
+            </div>
+            <!--
+         <br/>
+         OR
+         <br/>
+         <br/>
+         <button type="button" onclick="applet.fbinit();" class="waves-effect waves-light btn block textleft" style="background-color:#3B5998;"><i class="material-icons right">arrow_forward</i>CONTINUE WITH FACEBOOK</button>
+        -->
+          </center>
+
+        </form>
+      </div>
+
+
+    </layout-row>
+
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Deliver Package</title>
+</head>
+
+<body css="dashboard.css" js="pickup/deliver.js" class="bgmode">
+
+
+      <div class="jumbotron" style="padding:10px;">
+        <div class="row">
+
+          <div class="col s12">
+            <p class="hash"></p>
+            <p class="d_address"></p>
+          </div>
+
+          <button onclick="applet.demo();"  class="waves-effect waves-light blue btn block" id="click_here">Activate Drop-off</button>
+          <button onclick="applet.next();" class="waves-effect waves-light btn block hide" id="drop_off">DELIVERY COMPLETE</button>
+
+          <br/>
+          <div class="col s8">
+            <p>
+
+            <img src="app/assets/img/person.png" class="circular r_avatar" align="absmiddle" onclick="zoom_image(this.src);"/>
+
+              Please call <span class="r_name"></span> when you get close to DROP-OFF</p>
+            <br />
+          </div>
+          <div class="col s4 text-right">
+            <a href="#" class="cphone r_phone"><i class="material-icons circle">call</i></a>
+          </div>
+        </div>
+
+
+</body>
+
+</html>

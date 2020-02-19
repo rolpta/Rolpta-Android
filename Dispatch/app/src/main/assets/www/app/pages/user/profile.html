@@ -1,0 +1,205 @@
+<html>
+
+<head>
+  <title>My Profile</title>
+</head>
+
+<body css="" js="user/profile.js" back_btn="false" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <br />
+
+        <ul class="collapsible">
+          <li class="active">
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Profile Information</div>
+            <div class="collapsible-body">
+
+              <div class="label label-success">Your email address is <span id="emailady"></span> </div>
+              <br />
+
+
+              <form id="profile" action="javascript://" class="form" method="post" target="_self">
+
+                <div class="input-field">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input autocomplete="off" id="first" name="first" required="" type="text" class="validate">
+                  <label for="first">First Name</label>
+                </div>
+
+
+                <div class="input-field">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input autocomplete="off" id="last" name="last" required="" type="text" class="validate">
+                  <label for="last">Last Name</label>
+                </div>
+
+
+                <div class="input-field">
+                  <i class="material-icons prefix">phone</i>
+                  <input autocomplete="off" id="phone" name="phone" required="" type="text" class="validate">
+                  <label for="phone">Phone</label>
+                </div>
+
+                <div class="text-right">
+                  <button type="submit" id="send1" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>UPDATE</button>
+                </div>
+
+              </form>
+
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">email</i>Change E-mail</div>
+            <div class="collapsible-body">
+
+              <form id="mail" action="javascript://" class="form" method="post" target="_self">
+
+                <div class="input-field">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input autocomplete="off" id="email" name="email" required="" type="email" placeholder="Email" class="validate">
+                </div>
+
+                <div class="text-right">
+                  <button type="submit" id="send2" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>UPDATE</button>
+                </div>
+
+              </form>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">place</i>Set Avatar</div>
+            <div class="collapsible-body">
+
+              <form id="pimage" action="javascript://" class="form" method="post" target="_self">
+                <textarea id="image" name="image" class="hide"></textarea>
+
+                <div class="input-field">
+                  <p>Click on the photo to select</p>
+                  <img id="user_avatar_big" src="dist/assets/img/person.png" class="circular7" onclick="applet.getPhoto();" style="cursor:pointer;" />
+                </div>
+
+                <div class="text-right">
+                  <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>UPDATE</button>
+                </div>
+
+              </form>
+
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>Change Password</div>
+            <div class="collapsible-body">
+
+              <form id="changepass" action="javascript://" class="form" method="post" target="_self">
+
+                <div class="wrap-field">
+                  <div class="input-field">
+                    <i class="material-icons prefix">lock</i>
+                    <input autocomplete="off" type="password" id="password" name="password" required class="validate">
+                    <label for="password">Old Password</label>
+                  </div>
+                  <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password"></i>
+                </div>
+
+                <div class="wrap-field">
+                  <div class="input-field">
+                    <i class="material-icons prefix">lock</i>
+                    <input autocomplete="off" type="password" id="password2" name="password2" required class="validate">
+                    <label for="password2">New Password</label>
+                  </div>
+                  <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password2"></i>
+                </div>
+
+                <div class="wrap-field">
+                  <div class="input-field">
+                    <i class="material-icons prefix">lock</i>
+                    <input autocomplete="off" type="password" id="password3" name="password3" required class="validate">
+                    <label for="password3">Repeat New Password</label>
+                  </div>
+                  <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password3"></i>
+                </div>
+
+                <div class="text-right">
+                  <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>UPDATE</button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </li>
+
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">add_location</i>My Location</div>
+            <div class="collapsible-body">
+
+
+
+
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">place</i>
+                      Lattitude
+                      <span class="badge" id="u_lat"></span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">place</i>
+                      Longitude
+                      <span class="badge" id="u_lng"></span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">place</i>
+                      City
+                      <span class="badge" id="u_city"></span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">place</i>
+                      State
+                      <span class="badge" id="u_state"></span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">place</i>
+                      Country
+                      <span class="badge" id="u_country"></span></div>
+                  </li>
+
+                </ul>
+
+                <div class="text-right">
+                  <a href="#user/map" class="waves-effect waves-light btn"><i class="material-icons right">map</i>Show Map</a>
+                </div>
+
+            </div>
+          </li>
+        </ul>
+
+
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

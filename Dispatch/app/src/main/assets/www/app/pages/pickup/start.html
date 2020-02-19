@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <title>Pickup Package</title>
+</head>
+
+<body css="dashboard.css" js="pickup/start.js" class="bgmode">
+
+
+      <div class="jumbotron" style="padding:10px;">
+
+
+        <div class="row">
+
+          <div class="col s12">
+            <p class="hash"></p>
+            <p class="p_address"></p>
+          </div>
+
+          <button onclick="applet.demo();"  class="waves-effect waves-light blue btn block" id="click_here">Activate Pickup</button>
+
+          <button onclick="applet.scan();"  class="waves-effect waves-light green btn block hide" id="scan_package">Scan Package</button>
+          <button onclick="applet.next();"  class="waves-effect waves-light btn block hide" id="pickup_complete" style="margin-top:10px;">Pickup Complete</button>
+
+          <img id="order_picture" onclick="zoom_image(this.src);" src="common/assets/img/no_product.png" style="cursor:pointer;width:100%;display:none;margin-top:10px;"/>
+
+          <br/>
+           <div class="col s9">
+            <p>Please call <span  class="s_name">A</span> when you get close to pickup location</p>
+            <br />
+          </div>
+          <div class="col s3 text-right">
+            <a href="#" class="cphone s_phone"><i class="material-icons circle">call</i></a>
+          </div>
+        </div>
+
+</body>
+
+</html>

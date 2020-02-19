@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <title>Waiting for Payment</title>
+</head>
+
+<body css="dashboard.css" js="payment/ask.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+
+        <table>
+          <caption style="text-align:left;"><p>&nbsp;&nbsp;&nbsp;SENDER</p></caption>
+          <tr>
+            <td width="70">
+              <img src="app/assets/img/person.png" class="s_avatar circular"/>
+            </td>
+            <td>
+              <p class="p s_name"></p>
+              <p class="p description">5 Envelopes, 3 Boxes</p>
+            </td>
+            <td width="30">
+              <a href="#" class="cphone s_phone"><i class="material-icons circle">call</i></a>
+            </td>
+          </tr>
+        </table>
+
+
+
+
+        <div class="row">
+          <div class="col s6">
+            <p>DELIVERED TO</p>
+            <p class="p">
+              <img src="app/assets/img/person.png" class="r_avatar circular" align="absmiddle"/> &nbsp;
+
+              <span class="r_name"></span> <a class="r_phone"><i class="material-icons circle">call</i></a></p>
+              <p><b><span class="description"></span> (<span class="items"></span>)</b></p>
+              <p class="d_gaddress"></p>
+              <p class="d_address"></p>
+
+          </div>
+          <div class="col s6 text-right">
+            <p>ESTIMATED PRICE</p>
+            <p><b class="price"></b></p>
+          </div>
+        </div>
+
+
+      </div>
+    </layout-row>
+    <layout-footer>
+
+      <div class="jumbotron" style="padding:10px;">
+        <div class="row">
+           <div class="col s8">
+            <p>Please call <span  class="s_name">A</span> to make payment on the app.</p>
+            <br />
+            <button onclick="applet.next();"  class="waves-effect waves-light btn block">Confirm Payment</button>
+          </div>
+          <div class="col s4 text-right">
+            <br/>
+            <br/>
+            <a href="#" class="cphone s_phone"><i class="material-icons circle">call</i></a>
+          </div>
+        </div>
+
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

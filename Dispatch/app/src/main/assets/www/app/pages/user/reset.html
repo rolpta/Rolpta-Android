@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Reset Password</title>
+</head>
+<body class="signin navtop" js="user/reset.js">
+  <layout-table>
+          <layout-header>
+
+            <nav class="nav2 fixed-top">
+              <div class="nav-wrapper">
+
+              <div class="row">
+                <div class="col s3">
+                </div>
+                <div class="col s6">
+                  <div class="center">
+                    <span class="titlebar">Reset Password</span>
+                  </div>
+                </div>
+                <div class="col s3">
+                  <a class="right" href="#user/signin">Signin</a>
+                </div>
+              </div>
+            </div>
+            </nav>
+
+   </layout-header>
+   <layout-row>
+
+     <div class="center_wrapper">
+
+       <h5>Reset Password</h5>
+
+       <form id="form" action="javascript://" class="form" method="post" target="_self">
+         <input autocomplete="off" id="email" name="email" type="hidden" class="validate">
+
+         <div class="input-field bordered" style="margin-top:20px;margin-bottom:35px;">
+             <input autocomplete="off" id="email2"  disabled  type="email" class="validate">
+         </div>
+
+
+         <div class="input-field">
+           <i class="material-icons prefix">account_circle</i>
+           <input autocomplete="off" id="code" name="code" required="" type="text" class="validate">
+           <label for="code">Reset Code</label>
+         </div>
+
+         <div class="wrap-field">
+           <div class="input-field">
+             <i class="material-icons prefix">lock</i>
+             <input autocomplete="off" type="password" id="password" name="password" required class="validate">
+             <label for="password">New Password</label>
+           </div>
+           <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password"></i>
+         </div>
+
+         <div class="wrap-field">
+           <div class="input-field">
+             <i class="material-icons prefix">lock</i>
+             <input autocomplete="off" type="password" id="password2" name="password2" required class="validate">
+             <label for="password2">Repeat Password</label>
+           </div>
+           <i class="fa fa-fw fa-eye rt-field toggle-password right pointer" toggle="#password2"></i>
+         </div>
+
+
+         <div class="hint">
+           Check your email, and enter your password reset code above
+         </div>
+
+         <br/>
+
+
+    <div class="text-right">
+      <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>FINISH</button>
+    </div>
+
+    </form>
+       </div>
+
+
+   </layout-row>
+
+     <layout-footer>
+     </layout-footer>
+   </layout-table>
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<html>
+
+<head>
+  <title>Schedule</title>
+</head>
+
+<body css="dashboard.css" js="dashboard.js" class="dashboard navmode bgmode">
+
+
+      <div class="spcnav"></div>
+
+      <div class="content-area">
+        <h5>Schedule a Dispatch</h5>
+        <p>Please enter the details of your schedule.
+          Requesters will see this information.
+        </p>
+
+        <br />
+
+        <div class="input-field">
+          <input id="date" type="text" class="datepicker validate">
+          <label for="date">Date</label>
+        </div>
+
+        <div class="input-field">
+          <input id="time" type="text" class="timepicker validate">
+          <label for="time">Time</label>
+        </div>
+
+
+        <div style="background-color:#fff;padding:10px;">
+        <div class="switch">
+          <label>
+            Choose preferred items to deliver
+            <input type="checkbox">
+            <span class="lever"></span>
+          </label>
+        </div>
+      </div>
+
+      <br/>
+    <div class="jumbo">
+      <div class="row">
+        <div class="col s4">
+          <label>
+            <input type="checkbox" />
+            <span>Envelope</span>
+          </label>
+        </div>
+        <div class="col s4">
+          <label>
+            <input type="checkbox" />
+            <span>Bag</span>
+          </label>
+        </div>
+        <div class="col s4">
+          <label>
+            <input type="checkbox" />
+            <span>Sack/Box</span>
+          </label>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col s4">
+          <div class="input-field bordered">
+            <input id="num1" type="number" value="0" class="validate">
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="input-field bordered">
+            <input id="num2" type="number" value="0" class="validate">
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="input-field bordered">
+            <input id="num3" type="number" value="0" class="validate">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+      <br/>
+      <br/>
+      <a href="#dashboard/schedule_list"  class="waves-effect waves-light btn block text-left"><i class="material-icons right">arrow_forward</i>CONTINUE</a>
+
+      </div>
+
+</body>
+
+</html>

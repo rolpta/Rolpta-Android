@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <title>New Requests</title>
+</head>
+
+<body css="dashboard.css" back_btn="true"  js="queue.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <br />
+        <div class="jumbotron">
+
+
+          <div style="display:none;">
+            <div class="template">
+              <a href="#!" onclick="applet.select(this);return false;">
+                      <table>
+                        <tr>
+                          <td width="100">
+                            <img src="app/assets/img/person.png" class="circular1 avatar" />
+                          </td>
+                          <td>
+                            <p class="name"></p>
+                            <p class="position"></p>
+                          </td>
+                        </tr>
+                      </table>
+                </a>
+                <hr/>
+            </div>
+          </div>
+
+
+          <div class="row" style="margin-bottom:0;">
+            <div class="col s6">
+              <p id="cdate"></p>
+            </div>
+            <div class="col s6">
+              <p>ON QUEUE</p>
+            </div>
+          </div>
+
+          <div id="display_area">Waiting for requests...</div>
+
+
+
+
+        </div>
+
+      </div>
+    </layout-row>
+    <layout-footer>
+
+      <div class="text-right" style="padding:10px;display:none;">
+        <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">add</i></a>
+      </div>
+
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>
