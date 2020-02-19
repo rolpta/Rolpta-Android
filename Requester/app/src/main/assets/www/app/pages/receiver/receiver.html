@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <title>Receiver's Info</title>
+</head>
+
+<body css="dashboard.css" back_btn="true"  js="receiver.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+        <form autocomplete="off" id="form" action="javascript://" class="form" method="post" target="_self">
+          <textarea id="image" name="image" class="hide"></textarea>
+
+        <p>Please input Receiver's info.</p>
+
+        <div class="row">
+          <div class="col s4">
+            <img src="app/assets/img/person.png" class="circular3" id="r_avatar"  onclick="applet.getPhoto();">
+          </div>
+          <div class="col s8">
+            <div class="input-field">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="name" name="name" required="" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
+
+            <div class="input-field">
+              <i class="material-icons prefix">phone</i>
+              <input id="phone" name="phone" required="" type="text" class="validate">
+              <label for="phone">Phone</label>
+            </div>
+
+          </div>
+        </div>
+
+        <hr />
+
+        <p>Please select the kind of dispatch that is comfortable for you.</p>
+        <br />
+
+        <div class="input-field bordered">
+          <select id="dispatch" name="dispatch">
+            <option value="" disabled selected>Type of Dispatch</option>
+            <option value="sod">Start of the Day</option>
+            <option value="eod">End of the Day</option>
+          </select>
+        </div>
+
+        <br />
+        <button type="submit" class="waves-effect waves-light btn block text-left"><i class="material-icons right">arrow_forward</i>CONTINUE</button>
+      </form>
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

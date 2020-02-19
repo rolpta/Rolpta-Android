@@ -1,0 +1,246 @@
+<html>
+
+<head>
+  <title>Review Order</title>
+</head>
+
+<body css="dashboard.css" back_btn="true" js="pickup/order.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <form autocomplete="off" id="form" action="javascript://" class="form" method="post" target="_self">
+
+          <br />
+          <div class="jumbo">
+
+            <div class="row row2">
+              <div class="col s4">
+                <p>Package Information
+                </p>
+              </div>
+              <div class="s8 text-right">
+                <a href="#dashboard">Edit Section</a>
+              </div>
+            </div>
+
+
+            <ul class="collection">
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Order ID</td>
+                    <td class="text-right"><b id="hash"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Package</td>
+                    <td class="text-right"><b id="package"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Items</td>
+                    <td class="text-right"><b id="items"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Description</td>
+                    <td class="text-right"><b id="description"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Payment Method</td>
+                    <td class="text-right"><b id="paywith"></b></td>
+                  </tr>
+                </table>
+              </li>
+
+            </ul>
+          </div>
+
+          <br />
+          <div class="jumbo">
+
+            <div class="row row2">
+              <div class="col s4">
+                <p>Pickup Location
+                </p>
+              </div>
+              <div class="s8 text-right">
+                <a href="#pickup/set">Edit Section</a>
+              </div>
+            </div>
+
+
+            <ul class="collection">
+              <li class="collection-item hide">
+                <table>
+                  <tr>
+                    <td>Map Address</td>
+                    <td class="text-right"><b id="p_gaddress"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item" id="p_address_wrapper">
+                <table>
+                  <tr>
+                    <td>Full Address</td>
+                    <td class="text-right"><b id="p_address"></b></td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </div>
+
+          <br />
+
+
+          <div class="jumbo">
+
+            <div class="row row2">
+              <div class="col s4">
+                <p>Destination Location
+                </p>
+              </div>
+              <div class="s8 text-right">
+                <a href="#pickup/destination">Edit Section</a>
+              </div>
+            </div>
+
+
+            <ul class="collection">
+              <li class="collection-item hide">
+                <table>
+                  <tr>
+                    <td>Map Address</td>
+                    <td class="text-right"><b id="d_gaddress"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item" id="d_address_wrapper">
+                <table>
+                  <tr>
+                    <td>Full Address</td>
+                    <td class="text-right"><b id="d_address"></b></td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </div>
+          <br />
+
+
+          <div class="jumbo">
+
+            <div class="row row2">
+              <div class="col s4">
+                <p>Receiver's Information
+                </p>
+              </div>
+              <div class="s8 text-right">
+                <a href="#receiver">Edit Section</a>
+              </div>
+            </div>
+
+
+            <ul class="collection">
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Name</td>
+                    <td class="text-right"><b id="r_name"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item" id="p_address_wrapper">
+                <table>
+                  <tr>
+                    <td>Phone</td>
+                    <td class="text-right"><b id="r_phone"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item" id="p_address_wrapper">
+                <table>
+                  <tr>
+                    <td>Type of Dispatch</td>
+                    <td class="text-right"><b id="dispatch"></b></td>
+                  </tr>
+                </table>
+              </li>
+
+            </ul>
+          </div>
+
+
+
+
+          <br />
+
+          <div class="jumbo">
+
+            <p>Pricing
+            </p>
+
+
+            <ul class="collection">
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Category</td>
+                    <td class="text-right"><b id="category" style="text-transform: capitalize;"></b></td>
+                  </tr>
+                </table>
+              </li>
+
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Distance</td>
+                    <td class="text-right"><b id="distance"></b></td>
+                  </tr>
+                </table>
+              </li>
+              <li class="collection-item">
+                <table>
+                  <tr>
+                    <td>Pricing</td>
+                    <td class="text-right"><b id="price"></b></td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </div>
+
+          <br />
+          <br />
+          <a id="sendbtn" href="#!" onclick="applet.next();" class="waves-effect waves-light btn block text-left transbg"><i class="material-icons right">arrow_forward</i> SEE DISPATCHERS LIST</a>
+
+        </form>
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

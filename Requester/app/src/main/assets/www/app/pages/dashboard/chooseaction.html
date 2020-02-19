@@ -1,0 +1,120 @@
+<html>
+
+<head>
+  <title>Choose Action</title>
+</head>
+
+<body css="dashboard.css" js="dashboard.js" class="dashboard navmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <div class="jumbo">
+          <p>Please select your package</p>
+
+          <div class="row">
+            <div class="col s4">
+              <label>
+                <input type="checkbox" />
+                <span>Envelope</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input type="checkbox" />
+                <span>Bag</span>
+              </label>
+            </div>
+            <div class="col s4">
+              <label>
+                <input checked type="checkbox" />
+                <span>Sack/Box</span>
+              </label>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row">
+            <div class="col s4">
+              <div class="input-field bordered">
+                <input id="num1" type="number" value="0" class="validate">
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field bordered">
+                <input id="num2" type="number" value="0" class="validate">
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field bordered">
+                <input id="num3" type="number" value="5" class="validate">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <br />
+
+        <div class="jumbo">
+          <p>Please describe your package
+            <span class="badge right">Cash</span>
+          </p>
+
+          <div class="input-field bordered">
+            <textarea id="textarea1" class="materialize-textarea">A very simple package a sack which doesn't weigh much</textarea>
+          </div>
+          <br />
+        </div>
+
+        <br />
+        <br />
+        <div class="row">
+          <div class="col s6">
+            <div class="jumbo hintcolor">
+              Take items to dispatcher
+
+              <br/>
+              <br/>
+              <div class="text-right">
+                <a href="#pickup/destination" class="btn-small" style="padding:0 9px;"><i class="material-icons">arrow_forward</i></a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col s6">
+            <div class="jumbo hintbgcolor whitecolor">
+              Set your pickup location
+
+              <br/>
+              <br/>
+              <div class="text-right">
+                <a href="#pickup/start" class="btn-small" style="padding:0 9px;background-color:#fff;color:#3A8A83;"><i class="material-icons">arrow_forward</i></a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

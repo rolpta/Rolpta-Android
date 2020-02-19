@@ -1,0 +1,75 @@
+<html>
+
+<head>
+  <title>Estimated Price</title>
+</head>
+
+<body css="dashboard.css" back_btn="true"  js="price.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+        <table>
+          <tr>
+            <td width="50">
+              <img src="app/assets/img/pricing.png" />
+            </td>
+            <td style="line-height:2em;">
+              <label>ESTIMATED PRICE</label>
+              <h6 style="margin:0;margin-bottom:10px;" id="price"></h6>
+            </td>
+          </tr>
+        </table>
+
+
+        <div class="row" style="margin-bottom:0;">
+          <div class="col s6">
+            <p>DELIVERING TO</p>
+            <p><b id="address"></b></p>
+          </div>
+          <div class="col s6 text-right">
+            <p>TYPE OF PARCEL</p>
+            <p><b id="parcel"></b></p>
+          </div>
+        </div>
+
+
+
+        <div class="row" style="margin-bottom:0;">
+          <div class="col s6">
+            <table>
+              <tr>
+                <td width="70">
+                  <img id="r_avatar" class="circular" src="app/assets/img/person.png" />
+                </td>
+                <td style="line-height:2em;">
+                  <label>RECEIVER</label>
+                  <h6 style="margin:0;margin-bottom:10px;" id="name"></h6>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col s6 text-right">
+            <p>ORDER ID</p>
+            <p><b id="hash"></b></p>
+          </div>
+        </div>
+
+
+        <br />
+        <a href="#!" onclick="applet.dispatchers_list();return false;" class="waves-effect waves-light btn block text-left"><i class="material-icons right">arrow_forward</i>SEE DISPATCHERS LIST</a>
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+</body>
+
+</html>

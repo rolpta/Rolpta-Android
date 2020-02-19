@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title>Order Cancelled</title>
+</head>
+
+<body css="dashboard.css" js="rate.js" class="dashboard navmode bgmode">
+
+
+  <layout-table>
+    <layout-header>
+      <div class="spcnav"></div>
+    </layout-header>
+    <layout-row>
+      <div class="content-area">
+
+
+        <form autocomplete="off" id="form" action="javascript://" class="form" method="post" target="_self">
+
+          <h3>Order Cancelled by <span class="dname"></span></h3>
+
+          <p>Please rate <span class="dname"></span> now.</p>
+          <table>
+            <tr>
+              <td width="60">
+                <img height="40" id="userimg" alt="" class="circle">
+              </td>
+              <td>
+                <span class="title dname"></span>
+              </td>
+            </tr>
+          </table>
+          <div id="rate1" class="rating"></div>
+
+          <hr/>
+
+          <p>Please describe your experience
+          </p>
+
+          <div class="input-field bordered">
+            <textarea id="comment" name="comment" class="materialize-textarea"></textarea>
+            </div>
+            <br />
+            <button type="submit" class="waves-effect waves-light btn block">COMPLETE TRANSACTION</button>
+        </form>
+
+
+
+      </div>
+    </layout-row>
+    <layout-footer>
+    </layout-footer>
+  </layout-table>
+
+
+</body>
+
+</html>

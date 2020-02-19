@@ -1,0 +1,261 @@
+#nav1, #nav2 {display: none;}
+
+body.initialize {overflow: hidden;padding: 0;margin:0;}
+
+
+.link {display:block;}
+
+.p {margin:0;}
+
+.vspacer {height:10px;}
+
+.nopadding {padding: 0;}
+
+.titlebar {
+    display: block;
+    font-size: 17px;
+    line-height: 50px;
+    color:#fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body.navtop {
+padding-top:30px;
+}
+
+body.navmode nav {
+    height: 52px;
+    line-height: 36px;
+}
+
+body.navmode .spcnav {
+    height: 52px;
+}
+
+
+body.dashboard {
+}
+
+body.navmode #nav1{display: block;}
+
+body.dashboard #nav2{display: block;}
+
+
+body.dashboard body-wrapper{
+  margin-bottom:100px;
+}
+
+body.navmode .spcfooter {
+    height: 85px;
+}
+
+.sidenav .ulink {display: none;}
+
+body.dashboard > footer {
+  display: block;
+}
+
+
+body.dashboard .sidenav .ulink {display: block;}
+body.dashboard .sidenav .glink {display: none;}
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+nav {
+    box-shadow: initial;
+    -webkit-box-shadow: initial;
+    color: #000;
+    height: 52px;
+    line-height: 52px;
+    background: #421460;
+}
+
+nav a {
+    font-size: 17px;
+    line-height: 50px;
+}
+
+nav .right {
+    padding-right: 18px;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+.sidenav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background-color: #3D195E;
+}
+
+.sidenav li > a {
+    color: #fff;
+}
+
+.img-responsive {
+    width: 100%;
+}
+img, svg {
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+
+img.line {
+    width: 100%;
+    height: 2px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.padding-width {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-signin {
+    display: block;
+    width:100%;
+}
+
+.btn-rounded {
+    border-radius: 40px;
+}
+
+footer {
+    display:none;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: #421460;
+}
+
+.footermenu {
+    background-color: #2C2D5F;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.footer, .footermenu {
+    height: 80px;
+}
+.ftab {
+    display: block;
+    width: 19%;
+    text-align: center;
+    float: left;
+    height: 41px;
+}
+
+.footermenu a {
+    color: #fff;
+    font-size:10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footermenu > .ftab > a > img {height:20px;}
+.footermenu > .ftab > a.homemain > img {height:50px;}
+
+
+.jumbo, .jumbotron {
+  background-color: #fff;
+  padding:10px;
+  padding-bottom: 5px;
+  border-radius:10px;
+}
+
+.jumbotron {
+  border-radius:0px;
+}
+
+.jumbo h1,
+.jumbo h2,
+.jumbo h3,
+.jumbo h4,
+.jumbo h5,
+.jumbo h6,
+.jumbo p,
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6,
+.jumbotron p
+ {
+    margin-top: 0.2em;
+}
+
+.input-field.bordered input:not([type]),
+.input-field.bordered input[type=text]:not(.browser-default),
+.input-field.bordered input[type=password]:not(.browser-default),
+.input-field.bordered input[type=email]:not(.browser-default),
+.input-field.bordered input[type=url]:not(.browser-default),
+.input-field.bordered input[type=time]:not(.browser-default),
+.input-field.bordered input[type=date]:not(.browser-default),
+.input-field.bordered input[type=datetime]:not(.browser-default),
+.input-field.bordered input[type=datetime-local]:not(.browser-default),
+.input-field.bordered input[type=tel]:not(.browser-default),
+.input-field.bordered input[type=number]:not(.browser-default),
+.input-field.bordered input[type=search]:not(.browser-default),
+.input-field.bordered textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 0;
+    outline: none;
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 0px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+.input-field.bordered {border:1px solid #000;padding: 7px;}
+
+.input-field.bordered input:not([type]):focus:not([readonly]),
+.input-field.bordered input[type=text]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=password]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=email]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=url]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=time]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=date]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=datetime]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=tel]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=number]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered input[type=search]:not(.browser-default):focus:not([readonly]),
+.input-field.bordered textarea.materialize-textarea:focus:not([readonly]) {
+  border:0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}

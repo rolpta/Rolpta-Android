@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>BVN</title>
+</head>
+<body class="signin navtop" js="user/bvn.js">
+
+  <layout-table>
+          <layout-header>
+
+   <nav class="nav2 fixed-top">
+     <div class="nav-wrapper">
+
+     <div class="row">
+       <div class="col s3">
+       </div>
+       <div class="col s6">
+         <div class="center">
+           <span class="titlebar">Update BVN</span>
+         </div>
+       </div>
+       <div class="col s3">
+         <a class="right" href="#user/logout">Logout</a>
+       </div>
+     </div>
+   </div>
+   </nav>
+
+   </layout-header>
+   <layout-row>
+
+     <div class="center_wrapper">
+
+
+       <form id="form" action="javascript://" class="form" method="post" target="_self">
+
+         <div class="input-field">
+           <i class="material-icons prefix">account_circle</i>
+           <input autocomplete="off" id="bvn" name="bvn" required="" type="text" class="validate">
+           <label for="bvn">BVN</label>
+         </div>
+
+         <div class="input-field">
+           <i class="material-icons prefix">account_circle</i>
+           <textarea id="address" name="address" required class="materialize-textarea"></textarea>
+           <label for="textarea1">Address</label>
+         </div>
+
+         <div class="hint">
+           Please input your street address town, city, LGA, state and country in separate lines
+         </div>
+
+         <br/>
+
+
+
+    <div class="text-right">
+      <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>NEXT</a>
+    </div>
+
+    </form>
+       </div>
+
+
+   </layout-row>
+
+     <layout-footer>
+     </layout-footer>
+   </layout-table>
+
+
+</body>
+</html>

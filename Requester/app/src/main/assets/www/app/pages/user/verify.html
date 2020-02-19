@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Verify Account</title>
+</head>
+<body class="signin navtop" js="user/verify.js">
+  <layout-table>
+          <layout-header>
+
+            <nav class="nav2 fixed-top">
+              <div class="nav-wrapper">
+
+              <div class="row">
+                <div class="col s3">
+                </div>
+                <div class="col s6">
+                  <div class="center">
+                    <span class="titlebar">Verify Account</span>
+                  </div>
+                </div>
+                <div class="col s3">
+                  <a class="right" href="#user/logout">Logout</a>
+                </div>
+              </div>
+            </div>
+            </nav>
+
+   </layout-header>
+   <layout-row>
+
+     <div class="center_wrapper">
+
+       <h5>Verify Account</h5>
+
+       <form id="form" action="javascript://" class="form" method="post" target="_self">
+         <input autocomplete="off" type="hidden" name="email" id="email" value="">
+
+         <div class="input-field">
+           <i class="material-icons prefix">account_circle</i>
+           <input autocomplete="off" id="code" name="code" required="" type="text" class="validate">
+           <label for="code">Code</label>
+         </div>
+
+         <div class="hint">
+           Check your email, and enter your verification code above
+         </div>
+
+         <br/>
+
+
+    <div class="text-right">
+      <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">arrow_forward</i>NEXT</button>
+    </div>
+
+    </form>
+       </div>
+
+
+   </layout-row>
+
+     <layout-footer>
+     </layout-footer>
+   </layout-table>
+
+
+</body>
+</html>

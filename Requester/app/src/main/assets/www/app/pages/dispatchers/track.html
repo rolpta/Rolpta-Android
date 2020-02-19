@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>Track Dispatcher</title>
+</head>
+
+<body css="dashboard.css" js="dispatchers/track.js" class="bgmode">
+
+
+  <footer style="display:block;position:relative;" id="dinfo">
+    <div class="jumbotron" style="padding:10px;">
+
+
+      <div class="row">
+        <div class="col s12">
+          <a href="#"><i class="left material-icons" style="margin-right:5px;">access_time</i> <span id="message"></span></a>
+          <br />
+          <br />
+          <p><i class="left material-icons" style="margin-right:5px;">payment</i> Estimate Price: <span id="price"></span>
+            <button id="paybtn" style="display:none;" onclick="applet.payWithPaystack();" class="btn tiny right">Pay Now!</button>
+          </p>
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <td width="70">
+            <img src="common/assets/img/no_product.png" id="pdtimg" onclick="zoom_image(this.src);" class="circular circle" />
+          </td>
+          <td width="10">
+          </td>
+
+          <td width="70">
+            <img src="app/assets/img/person.png" id="davatar" class="circular" onclick="zoom_image(this.src);"/>
+          </td>
+          <td style="line-height:1.2em;">
+            <label class="block" id="dname"></label>
+            <label class="block" id="dvehicle"></label>
+          </td>
+          <td></td>
+          <td width="40">
+            <a href="#" class="cphone" id="dphone"><i class="material-icons circle" style="background-color:#3CBBB1;">call</i></a>
+          </td>
+        </tr>
+      </table>
+
+
+      <div class="row cancelorderbtn hide">
+        <div class="col s8">
+          <br />
+          <a href="#!" onclick="applet.cancel();return false;" class="waves-effect waves-light btn red block">CANCEL REQUEST</a>
+        </div>
+        <div class="col s4 text-right">
+        </div>
+      </div>
+
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>Dispatcher Selected</title>
+</head>
+
+<body css="dashboard.css" back_btn_float="true"   js="dispatchers/select.js" class="bgmode">
+
+
+  <footer style="display:block;position:relative;" id="dinfo">
+    <div class="jumbotron" style="padding:10px;">
+
+
+      <div class="row">
+        <div class="col s12">
+          <a href="#"><i class="left material-icons" style="margin-right:5px;">access_time</i> Waiting for <span id="dname">dispatcher</span> to Accept...</a>
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <td width="75">
+            <img src="app/assets/img/person.png" class="circular" id="avatar"/>
+          </td>
+          <td style="line-height:1.2em;">
+            <label class="block" id="dname"></label>
+            <label class="block" id="dvehicle"></label>
+          </td>
+          <td></td>
+          <td width="40">
+            <a href="#" class="cphone" id="dphone"><i class="material-icons circle" style="background-color:#3CBBB1;">call</i></a>
+          </td>
+        </tr>
+      </table>
+
+
+      <div class="row">
+        <div class="col s8">
+          <br />
+          <button onclick="applet.back();" class="waves-effect waves-light btn red block">CHANGE DISPATCHER</button>
+        </div>
+        <div class="col s4 text-right">
+        </div>
+      </div>
+  </footer>
+
+</body>
+
+</html>

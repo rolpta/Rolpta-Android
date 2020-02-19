@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Set Pickup Location</title>
+</head>
+
+<body css="dashboard.css"  back_btn_float="true" loc_btn_float="true" js="pickup/set.js" class="bgmode">
+
+
+
+  <footer style="display:block;position:relative;">
+    <div class="jumbotron" style="padding:10px;">
+
+      <p>Hi <span class="fullname"></span>!</p>
+      <p><b>Search for pickup location?</b></p>
+
+      <table>
+        <tr>
+          <td>
+            <div class="input-field bordered" style="margin:0">
+              <input type="text" placeholder="Find location e.g maryland, usa" class="gllpSearchField">
+            </div>
+          </td>
+          <td width="1">
+            <input type="button" class="gllpSearchButton btn red" value="Go">
+          </td>
+        </tr>
+      </table>
+
+
+      <p>Enter Your Full Pickup Address:</p>
+      <div class="input-field bordered">
+        <textarea id="address" class="gllpLocationName materialize-textarea"></textarea>
+      </div>
+
+      <div class="text-right">
+        <button onclick="applet.next();" class="btn blue block">Confirm Pickup Location</button>
+      </div>
+
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
